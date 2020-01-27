@@ -8,8 +8,12 @@
 
 
 
+<!--  <p id='message'></p> -->
 
-	<script>
+
+
+ <script  type="text/javascript">
+	
 	//var name = prompt("Type your name");
 	//var name = prompt("Type your age");
 	//var name = prompt("Type your name");
@@ -60,27 +64,27 @@
 
 
 
-		function area(a,b){
-			var sum = a*b;
+		// function area(a,b){
+		// 	var sum = a*b;
 		
-				return sum;
-		}
+		// 		return sum;
+		// }
 			
-			var a = prompt("width");
-			var b = prompt ("height");
+		// 	var a = prompt("width");
+		// 	var b = prompt ("height");
 			
-			area(a,b)
+		// 	area(a,b)
 
-		function volume(c){
-			var multi = area(a,b) *c;
-	
+		// function volume(c){
+		// 	var multi = area(a,b) * c;
+		// 	return multi;
 				
-		}
-			var c = prompt("depth");
+		// }
+
+		// 	var c = prompt("depth");
+
+		// 	document.write(volume(c));
 			
-
-			document.write(volume(c));
-
 
 
 
@@ -105,8 +109,32 @@
 
 
 
+
+
+
+
 		
 
+//   try{
+
+//     var person = prompts("Please enter your name", "Harry Potter");
+//        document.getElementById("message").innerHTML = "Hello " + person + "! How are you today?";
+// 	}
+// 	catch(err){ 
+
+// 		console.error(err.message);
+// }
+
+		
+	(function(a){
+		var res = a.charAt(0).toUpperCase() + a.substring(1);
+		console.log(res);
+	})("i am a developer");
+
+
+	(function(text){
+		console.log(text);
+	})("Serri")
 
 	</script>
 </body>
